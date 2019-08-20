@@ -24,7 +24,7 @@ vector <float> sense(vector <float> p, string measurement, vector <string> world
 
 	for (int j = 0; j < q.size(); ++j)
 	{
-		sum += q[j];
+		sum = sum + q[j];
 	}
 
 	for (int k = 0; k < q.size(); ++k)

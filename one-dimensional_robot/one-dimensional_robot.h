@@ -1,2 +1,2 @@
 vector <float> sense(vector <float> p, string measurement, vector <string> world, float pHit, float pMiss);
-vector <float> move(vector <float> p, int motion, vector <string> world, float pExact, float pOvershoot, float pUndershoot);
+vector <float> move(vector <float> p, int motion, float pExact, float pOvershoot, float pUndershoot);

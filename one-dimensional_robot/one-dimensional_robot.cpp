@@ -10,7 +10,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
+    //cout << "Hello World!\n";
 
 	vector <float> p(5, 0.2);
 	vector <string> world;
@@ -35,7 +35,7 @@ int main()
 	for (int i = 0; i < measurements.size(); ++i)
 	{
 		p = sense(p, measurements[i], world, pHit, pMiss);
-		p = move(p, motions[i], world, pExact, pOvershoot, pUndershoot);
+		p = move(p, motions[i], pExact, pOvershoot, pUndershoot);
 	}
 	
 	for (int j = 0; j < world.size(); ++j)
