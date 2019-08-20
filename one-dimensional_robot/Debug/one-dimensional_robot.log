@@ -1,0 +1,8 @@
+﻿  move.cpp
+  sense.cpp
+C:\Users\delto\source\repos\one-dimensional_robot\move.cpp(14,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\delto\source\repos\one-dimensional_robot\sense.cpp(15,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\delto\source\repos\one-dimensional_robot\sense.cpp(25,20): warning C4018:  '<': signed/unsigned mismatch
+  Generating Code...
+C:\Users\delto\source\repos\one-dimensional_robot\sense.cpp(30,20): warning C4018:  '<': signed/unsigned mismatch
+  one-dimensional_robot.vcxproj -> C:\Users\delto\source\repos\one-dimensional_robot\Debug\one-dimensional_robot.exe
